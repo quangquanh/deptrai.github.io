@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vì cậu da'ng ye^u vl :<<<<<<< ";
+    var text = " cậu đẹp trai bá cháy đẹp vl đẹp dã man đẹp đến mức tớ không cưỡng nỗi  ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -96,11 +96,11 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nói cho tớ lí do cậu thích tớ đi :vvvv',
+        title: 'Nói cho tớ cảm nhận của cậu về độ đẹp trai của tớ đi :vvvv',
         html: true,
         width: 900,
         padding: '3em',
-        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Whyyy'>",
+        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='nếu không nói gì là tớ đẹp đến mức cậu không nói lên lời đấy'>",
         background: '#fff url("img/iput-bg.jpg")',
         backdrop: `
               rgba(0,0,123,0.4)
@@ -122,7 +122,7 @@ $('#yes').click(function() {
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("img/iput-bg.jpg")',
                 title: 'Tớ biết mà ^^ Yêu cậu 300.000',
-                text: "i'm so happy to meet and know you :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàoooooo",
+                text: "độ đẹp trai của tớ là không thể phủ nhận :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàoooooo",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'http://fb.com';
